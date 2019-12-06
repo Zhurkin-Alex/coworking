@@ -1,0 +1,58 @@
+.header--navigastion{
+  /* padding-left: 197px;
+  padding-left: 174px; */
+}
+.nav{
+  padding: 28px 0 40px 0;
+}
+.nav__link{
+  display: flex;
+  align-items: center;
+  font-family: "Gotham Pro";
+  font-size: 12px;
+  font-weight: 700;
+  color: #dadade;
+  letter-spacing: 1.2px;
+  text-decoration: none;
+}
+.nav__link:before{
+  content:"";
+  display: block;
+  width: 20px;
+  height: 18px;
+  margin-right: 18px;
+  background:center center/contain no-repeat;
+}
+.nav__list{
+  display: flex;
+  align-items: center;
+}
+
+.nav__item:nth-child(2){
+  padding-left:90px ;
+  padding-right: 98px;
+}
+.nav__link:hover{
+color: #dc1f74;
+}
+.nav__link--icon--main{
+  color: #dc1f74;
+}
+.nav__link--icon--main:before{
+  /* background-image: url(/img/main_icon.png); */
+  background: url(../../img/css_sprites.png) -10px -10px;
+}
+.nav__link--icon--feed:before{
+  background: url(../../img/css_sprites.png) -10px -155px;
+}
+.nav__link--icon--main_wallet:before{
+  background: url(../../img/css_sprites.png) -10px -81px;
+}
+
+
+.nav__link--icon--feed:hover:before{
+  background: url(../../img/css_sprites.png) -10px -117px;
+}
+.nav__link--icon--main_wallet:hover:before{
+  background: url(../../img/css_sprites.png) -10px -45px;
+}

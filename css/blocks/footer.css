@@ -1,0 +1,29 @@
+.footer{
+  background: #27273e;
+  width: 100%;
+  height: 77px;
+  display: flex;
+}
+.conteiner--footer{
+  display: flex;
+  justify-content: space-between;
+}
+.about-made{
+  width: 264px;
+  color: #ffffff;
+  margin: 14px 19px;
+}
+.about-made__text{
+  font-family: "Gotham Pro";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 18px;
+}
+
+.about-made__school{
+  font-family: "Gotham Pro";
+  font-size: 14px;
+font-weight: 700;
+  color:#ffffff;
+}
+

@@ -1,0 +1,47 @@
+.social{
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+ }
+.social__text{
+  color:  #221f1f;;
+  font-family: "Gotham Pro";
+  font-size: 14px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+}
+.social__list{
+  display: flex;
+  justify-content: center;
+  padding-top: 13px;
+  
+}
+.social__item{
+display: flex;
+  justify-content: flex-start;
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+}
+.social__item:nth-last-child(1){
+  margin-right:0px;
+}
+.social__link{
+  display: flex;
+  width: 20px;
+height: 20px;
+background: white;
+border-radius: 50% ;
+position: relative;
+  text-align: center;
+}
+.social__link:hover{
+  background: #ec1e79;
+}
+.social__page{
+position: absolute;
+left:50%;
+top:50%;
+transform: translate(-50%,-50%);
+}

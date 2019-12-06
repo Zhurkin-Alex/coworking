@@ -1,0 +1,96 @@
+.header{
+background: #27273e;
+  display:flex; 
+  width: 100%;
+  /* height: 435px; */
+  height: 469px;
+}
+.header-top{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height:22.2%;
+}
+
+.conteiner-header{
+  display: flex;
+  flex-direction: column;
+}
+.contacs{
+display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+padding: 0px 21px 17px 21px;
+}
+.contacs__work{
+  position: relative;
+
+}
+.contacs__work:hover .contacs__drop{
+  display: block;
+}
+.contacs__phone{
+  font-size: 21px;
+  font-weight: 700;
+  padding-top: 22px;
+  color: #ffffff;
+  font-family: "Gotham Pro";
+  text-decoration: none;
+/* margin-bottom: 6px; */
+}
+.contacs__work-time{
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 700;
+  color: #ec1e79;
+  padding-top: 6px;
+}
+.contacs__work-time:hover{
+  color: #7789ba;
+}
+.contacs__drop{
+  position: absolute;
+  right:0;
+  top:30px;
+  min-width: 184px;
+  background: #ffffff;
+  padding: 18px 11px;
+  border-radius: 3px;
+  box-shadow: 3px 4px 5px rgba(0, 0, 0, .2) ;
+  display: none;
+}
+.contacs__drop::before{
+  content:'';
+  display: flex;
+  border: 10px solid transparent;
+  border-bottom: 10px solid #ffffff;
+  position: absolute;
+  bottom: 100%; /*выталкиваем нав верх*/
+  right:7px;
+}
+.contacs__drop::after{
+  content: '';
+  display: flex;
+  position: absolute;
+  height: 14px;
+  bottom:100%;
+  left: 0;
+  width: 100%;
+
+}
+.contacs__work-item{
+  text-align: left;
+  font-family: "Gotham Pro";
+  font-weight: 300;
+
+  
+}
+.contacs__work-item_active{
+  font-family: "Gotham Pro";
+  font-weight: 700;
+  color:#ec1e79
+}
+.header-banner{
+  display: flex;
+  overflow: hidden;
+}
