@@ -1,7 +1,7 @@
 @import url(/css/layout/fonts.css);
 @import url(/css/layout/normalize.css);
 @import url(/css/layout/bace.css);
-@import url(./css/blocks/header.css);
+@import url(css/blocks/header.css);
 @import url(/css/blocks/logo.css);
 @import url(/css/blocks/page-content.css);
 @import url(/css/blocks/header--navigastion.css);
