@@ -1,15 +1,15 @@
-@import url(/css/layout/fonts.css);
-@import url(/css/layout/normalize.css);
-@import url(/css/layout/bace.css);
+@import url(css/layout/fonts.css);
+@import url(css/layout/normalize.css);
+@import url(css/layout/bace.css);
 @import url(css/blocks/header.css);
-@import url(/css/blocks/logo.css);
-@import url(/css/blocks/page-content.css);
-@import url(/css/blocks/header--navigastion.css);
-@import url(/css/blocks/sidebar.css);
-@import url(/css/blocks/social.css);
-@import url(/css/blocks/content.css);
-@import url(/css/blocks/pagination.css);
-@import url(/css/blocks/footer.css);
+@import url(css/blocks/logo.css);
+@import url(css/blocks/page-content.css);
+@import url(css/blocks/header--navigastion.css);
+@import url(css/blocks/sidebar.css);
+@import url(css/blocks/social.css);
+@import url(css/blocks/content.css);
+@import url(css/blocks/pagination.css);
+@import url(css/blocks/footer.css);
 
 
 
